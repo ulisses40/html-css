@@ -1,0 +1,95 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Conteúdo ================= */
+
+/** Conteúdo >> Título Cardápio Home **/
+.cardapiohome .uagb-rm__title-wrap {
+	width: 270px !important;
+}
+
+/** Conteúdo >> Preço Cardápio Home **/
+.cardapiohome .uagb-rm__price {
+	width: 80px !important;
+}
+
+/** Conteúdo >> Menu item 864 menu link **/
+#menu-item-864 .menu-link {
+	
+}
+
+
+/*= Rodapé =================== */
+
+/** Rodapé >> telefone-rodape **/
+#block-13 > .has-text-align-center {
+	font-weight: 700 !important;
+	margin-top: -70px !important;
+}
+
+/** Rodapé >> Barra Rodap **/
+#colophon .site-below-footer-wrap {
+	
+}
+
+/** Rodapé >> Barra Rodapé **/
+#colophon .site-below-footer-wrap {
+	height: 40px !important;
+	min-height: 40px !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+
+/*( Desktop grande )*/
+@media (min-width: 1200px) {
+
+	/*= Rodapé =================== */
+
+	/** Rodapé >> Exibir desktop **/
+	.exibir-desktop {
+	height: 0 !important;
+	visibility: hidden !important;
+}
+
+
+}
+
+
+/*( Celular )*/
+@media (max-width: 480px) {
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> Bem-vindo Especial **/
+	.uagb-infobox-has-icon h2 {
+	font-size: 55px !important;
+	line-height: 70px !important;
+}
+
+	/** Conteúdo >> Título Cardápio Home **/
+	.cardapiohome .uagb-rm__title-wrap {
+	width: 220px !important;
+}
+
+	/** Conteúdo >> Preço Cardápio Home **/
+	.cardapiohome .uagb-rm__price {
+	
+}
+
+
+	/*= Rodapé =================== */
+
+	/** Rodapé >> Esconder mobile **/
+	.esconder_mobile {
+	visibility: hidden !important;
+}
+
+	/** Rodapé >> telefone-rodape **/
+	#block-13 > .has-text-align-center {
+	font-size: 60px !important;
+}
+
+
+}
+

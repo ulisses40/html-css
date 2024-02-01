@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+        }
+        header{
+            width: auto;
+            background-color: brown;
+            margin: 10px;
+        }
+        nav{
+            background-color: blanchedalmond;
+            padding: 3px;
+            box-shadow: 5px 5px 5px 11px black;
+            
+        }
+        h1{
+            box-shadow: 5px 5px 9px red;
+        }
+        nav > a{
+            text-decoration: aqua;
+            color: white;
+            font-weight: bold;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0PX;
+            box-shadow: 4PX 4PX 4PX rgb(10, 6, 6);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: aquamarine;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(211, 61, 61);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes e Politica</p>
+        </section>
+        <section     
+        id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ipsum aut, repellendus saepe vitae laudantium deserunt veritatis fuga, assumenda magni possimus similique laboriosam enim ea eos et modi dolore id.
+                <aside>
+                    </p>
+                    <p>Artigo escrito por Ulisses Guimarães</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Ulisses</p>
+
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
